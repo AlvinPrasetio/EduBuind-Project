@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body{
+  font-family: "Nunito", sans-serif;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-block;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
+  
+  .header {
+    width: 100%;
+    min-height: 50px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+  }
+  
+  .header__title {
+    width: 300px;
+  }
+  
+  .header__menu {
+    font-size: 30px;
+    margin: 10px auto;
+    display: block;
+    width: 45px;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
+  }
+  
+  /* Styling untuk nav__menu */
+#nav__menu {
+  overflow: hidden;
+}
+
+/* Styling untuk nav__list ul */
+#nav__menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling untuk nav__item */
+.nav__item {
+  float: left;
+}
+
+.nav__item a, .dropbtn {
+  display: inline-block;
+  color: black; /* Warna teks */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav__item a:hover, .dropdown:hover .dropbtn {
+  background-color:grey; /* Warna latar belakang saat hover */
+}
+
+/* Dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero::before {
+    background-image: url("../public/images/hero/hero-image_1.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+ /* CSS for the Tarian page */
+
+.title {
+  background-color: grey;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px; /* Adjust the height accordingly */
+  margin-left: 300px;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url('../public/images/tarian/tari-gambyong-jawa-tengah.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.card-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+
+
+.card-container-musik {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url('../public/images/alat-musik/alat-musik-jawa-tengah.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+
+
+
+p {
+ background-color: grey;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-left: 300px;
+ width: 100%;
+ height: 45px;
+ color: black;
+
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: start;
+  margin-left: 350px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: darkgray;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
