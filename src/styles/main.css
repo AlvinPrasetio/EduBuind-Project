@@ -2,99 +2,111 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+  }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
-body{
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
   font-family: "Nunito", sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
 }
 
 .skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    padding: 8px;
-    background-color: brown;
-    color: white;
-    padding: 8px;
-    text-decoration: none;
-    z-index: 100;
-    min-width: 44px;
-    min-height: 44px;
-    display: inline-block;
-  }
-  
-  .skip-link:focus {
-    top: 0;
-  }
-  
-  .header {
-    width: 100%;
-    min-height: 50px;
-    padding-block: 1rem;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: darkgrey;
-  }
-  
-  .header__title {
-    width: 300px;
-  }
-  
-  .header__menu {
-    font-size: 30px;
-    margin: 10px auto;
-    display: block;
-    width: 45px;
-    min-width: 44px;
-    min-height: 44px;
-    padding: 0;
-  }
-  
-  /* Styling untuk nav__menu */
-#nav__menu {
-  overflow: hidden;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 8px;
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  z-index: 100;
+  min-width: 44px;
+  min-height: 44px;
 }
 
-/* Styling untuk nav__list ul */
+.skip-link:focus {
+  top: 0;
+}
+
+.header {
+  width: 100%;
+  min-height: 50px;
+  padding-block: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkgrey;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.header__menu {
+  font-size: 30px;
+  display: none;
+  width: 45px;
+  min-width: 44px;
+  min-height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#nav__menu {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
 #nav__menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/* Styling untuk nav__item */
 .nav__item {
   float: left;
+  position: relative;
 }
 
 .nav__item a, .dropbtn {
   display: inline-block;
-  color: black; /* Warna teks */
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .nav__item a:hover, .dropdown:hover .dropbtn {
-  background-color:grey; /* Warna latar belakang saat hover */
+  background-color: grey;
 }
 
-/* Dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
 .dropbtn {
   font-size: 16px;  
   border: none;
@@ -102,20 +114,17 @@ body{
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
@@ -125,48 +134,50 @@ body{
   text-align: left;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-
-  .hero {
-    position: relative;
-    display: flex;
-    align-items: center;
-    min-height: 400px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .hero::before {
-    background-image: url("../public/images/hero/hero-image_1.jpg");
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-
-  
- /* CSS for the Tarian page */
-
-.title {
-  background-color: grey;
-  justify-content: center;
+.hero {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-height: 500px;
   width: 100%;
-  height: 100px; /* Adjust the height accordingly */
-  margin-left: 300px;
+  text-align: center;
+}
+
+.hero::before {
+  background-image: url("../public/images/hero/hero-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* CSS for the Tarian page */
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .card-container {
@@ -178,10 +189,10 @@ body{
   background-position: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 5px;
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
-  margin-left: 300px;
+
 }
 
 .card-content {
@@ -189,13 +200,14 @@ body{
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
+.card-content h3 {
+  margin: 0;
+  color: #333;
+}
 
 .card-container-musik {
   display: flex;
@@ -209,57 +221,156 @@ body{
   margin-top: 5px;
   justify-content: center;
   align-items: center;
-  margin-left: 300px;
 }
 
+.maincontent {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  /* max-width: 1200px; */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
 
+.maincontent h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-p {
- background-color: grey;
- display: flex;
- justify-content: center;
- text-align: center;
- margin-left: 300px;
- width: 100%;
- height: 45px;
- color: black;
+.maincontent p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+  text-align: justify;
+}
+.description-content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  color: #333;
+}
 
+.description-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
 }
 
 h2 {
-  margin-top: 50px;
+  margin: 50px;
   text-align: start;
-  margin-left: 350px;
-  
 }
 
+.team-section {
+  text-align: center;
+  padding: 50px 20px;
+}
 
+.team-section h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
 
+.team-member {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.team-member img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
 
+.team-member h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
 
+.team-member .role {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 10px;
+}
 
+.team-member p {
+  font-size: 14px;
+  color: #555;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+}
 
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
 
+.footer-section h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
 
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
 
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
 
+.footer-section ul li {
+    margin: 10px 0;
+}
 
+.footer-section ul.social-media {
+    display: flex;
+    gap: 10px;
+}
 
+.footer-section ul.social-media li {
+    display: inline;
+}
 
+.footer-section ul.social-media li a {
+    color: #fff;
+    text-decoration: none;
+}
 
+.footer-section ul.social-media li a:hover {
+    text-decoration: underline;
+}
 
-  footer {
-    background-color: darkgray;
-    padding: 1rem;
-    width: 100%;
+.footer-bottom {
+    background-color: #222;
+    color: #aaa;
     text-align: center;
-  }
-  
-  footer span {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
+    padding: 10px 0;
+    font-size: 14px;
+}
