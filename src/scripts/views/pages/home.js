@@ -1,13 +1,14 @@
 const HomePage = {
   async render() {
     return `
+    <div class="hero"></div>
     <div class="maincontent">
       <article id="mission">
         <h2>OUR MISSION</h2>
           <p> Indonesia memiliki keberagaman budaya yang luar biasa, dari seni tradisional hingga kepercayaan adat. 
           Namun, semakin banyak yang kehilangan koneksi dengan warisan budaya ini karena kurangnya sumber daya pendidikan 
           yang relevan dan menarik. Oleh karena itu, kami ingin mengembangkan sebuah solusi yang memanfaatkan teknologi 
-          untuk memperkenalkan budaya Indonesia secara menyeluruh dan menarik bagi semua kalangan.
+          untuk memperkenalkan budaya Indonesia secara menyeluruh dan menarik bagi semua kalangan.<br>
           Sebagai tim yang peduli terhadap masa depan budaya Indonesia, kami percaya bahwa solusi inovatif ini akan 
           membantu membangkitkan kembali kecintaan dan pemahaman terhadap budaya bangsa, serta meningkatkan apresiasi 
           terhadap kekayaan budaya yang kita miliki. Dengan Perkembangan teknologi informasi dan komunikasi menawarkan 

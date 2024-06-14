@@ -23,6 +23,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #f4f4f4;
+  margin-top: 10px;
 }
 
 .skip-link {
@@ -43,18 +44,21 @@ body {
 }
 
 .header {
+  position: fixed;
+  top: 0;
   width: 100%;
-  min-height: 50px;
   padding-block: 1rem;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  z-index: 1000;
+  /* align-items: center; */
   background-color: darkgrey;
 }
 
 .header__inner {
   display: flex;
   align-items: center;
+  padding: 0 20px;
 }
 
 .header__title {
@@ -288,7 +292,7 @@ h2 {
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -364,7 +368,8 @@ h2 {
 }
 
 .footer-section ul.social-media li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: gray;
 }
 
 .footer-bottom {
