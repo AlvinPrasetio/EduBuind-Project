@@ -1,10 +1,15 @@
 const HomePage = {
   async render() {
     return `
-    <div class="hero"></div>
+    <div class="hero">
+    <video autoplay loop muted>
+        <source src="images/hero/video-hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
     <div class="maincontent">
       <article id="mission">
-        <h2>OUR MISSION</h2>
+        <h2>OUR MISSIONS</h2>
           <p> Indonesia memiliki keberagaman budaya yang luar biasa, dari seni tradisional hingga kepercayaan adat. 
           Namun, semakin banyak yang kehilangan koneksi dengan warisan budaya ini karena kurangnya sumber daya pendidikan 
           yang relevan dan menarik. Oleh karena itu, kami ingin mengembangkan sebuah solusi yang memanfaatkan teknologi 
@@ -24,7 +29,7 @@ const HomePage = {
             <div class="team-member">
                 <img src="path_to_steven_image.jpg" alt="Muhammad Dzikri Mufarrij">
                 <h3>Muhammad Dzikri Mufarrij</h3>
-                <p class="role">Back-End Developer</p>
+                <p class="role">Front-End Developer</p>
                 <p>Membuat Integrasi Front-End ke Back-End.</p>
             </div>
             <div class="team-member">
@@ -47,7 +52,11 @@ const HomePage = {
   },
 
   async afterRender() {
-    // Implementasi setelah render di sini
+    const video = document.querySelector('.hero video');
+    video.play().catch((error) => {
+      console.log('Autoplay prevented: ', error);
+      // Handle autoplay block (e.g., show play button)
+    });
   },
 };
 
