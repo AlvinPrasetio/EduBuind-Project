@@ -1,13 +1,6 @@
 const HomePage = {
   async render() {
     return `
-    <div class="hero">
-      <video autoplay loop muted>
-        <source src="images/hero/video-hero.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
     <div class="maincontent">
       <article id="mission">
         <h2>OUR MISSIONS</h2>
