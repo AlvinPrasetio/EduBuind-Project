@@ -2,11 +2,12 @@ const HomePage = {
   async render() {
     return `
     <div class="hero">
-    <video autoplay loop muted>
+      <video autoplay loop muted>
         <source src="images/hero/video-hero.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
-</div>
+      </video>
+    </div>
+
     <div class="maincontent">
       <article id="mission">
         <h2>OUR MISSIONS</h2>
@@ -20,26 +21,27 @@ const HomePage = {
           peluang baru untuk edukasi budaya. Website ini dapat menjadi media edukasi budaya yang efektif dan menarik.
           </p>
       </article>
+      </div>
       
-    
+    <div class="maincontent_team">
     <article id="tim">
      <div class="team-section">
         <h2>Perkenalkan Tim Capstone EduBuind</h2>
         <div class="team-container">
             <div class="team-member">
-                <img src="path_to_steven_image.jpg" alt="Muhammad Dzikri Mufarrij">
+                <img src="" alt="Muhammad Dzikri Mufarrij">
                 <h3>Muhammad Dzikri Mufarrij</h3>
                 <p class="role">Front-End Developer</p>
-                <p>Membuat Integrasi Front-End ke Back-End.</p>
+                <p>Membangun halaman yang menarik dan interaktif.</p>
             </div>
             <div class="team-member">
-                <img src="../../../public/images/about-us/Alvin_Prasetio.jpg" alt="Alvin Prasetio">
+                <img src="./images/tim/Alvin_Prasetio.jpg" alt="Alvin Prasetio">
                 <h3>Alvin Prasetio</h3>
                 <p class="role">Front-End Developer</p>
                 <p>Membangun halaman yang menarik dan interaktif.</p>
             </div>
             <div class="team-member">
-                <img src="path_to_athaya_image.jpg" alt="Dicky Andrean">
+                <img src="" alt="Dicky Andrean">
                 <h3>Dicky Andrean</h3>
                 <p class="role">Front-End Developer</p>
                 <p>Membangun halaman yang menarik dan interaktif.</p>
@@ -55,7 +57,6 @@ const HomePage = {
     const video = document.querySelector('.hero video');
     video.play().catch((error) => {
       console.log('Autoplay prevented: ', error);
-      // Handle autoplay block (e.g., show play button)
     });
   },
 };

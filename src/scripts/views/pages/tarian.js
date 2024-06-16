@@ -8,8 +8,8 @@ const TarianPage = {
         <h2>Provinsi Jawa Tengah</h2>
         <div class="card-container">
             <div class="card-content">
-                <img src="../../../public/images/tarian/tari-gambyong-jawa-tengah.png" alt="Tari Gambyong">
-                <h3>Tari Gambyong</h3>
+              <h3>Tari Gambyong</h3>
+                <img src="./images/tarian/tari-gambyong-jawa-tengah.png" alt="Tari Gambyong">
             </div>
         </div>
         <div class="description-content">

@@ -23,7 +23,6 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #f4f4f4;
-  margin-top: 10px;
 }
 
 .skip-link {
@@ -51,7 +50,7 @@ body {
   display: flex;
   justify-content: space-around;
   z-index: 1000;
-  /* align-items: center; */
+  align-items: center;
   color: white  ;
   transition: background-color 0.3s ease;
 }
@@ -73,7 +72,7 @@ body {
 .header__title {
   margin: 0;
   padding-left: 20px;
-  font-size: 45px;
+  font-size: 35px;
   margin-top: 20px;
 }
 
@@ -112,11 +111,13 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .nav__item a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+  /* background-color: grey; */
+  font-weight: 800;
+  
 }
 
 .dropdown {
@@ -125,7 +126,7 @@ body {
 }
 
 .dropbtn {
-  font-size: 20px;  
+  font-size: 16px;  
   border: none;
   outline: none;
   padding: 14px 16px;
@@ -165,22 +166,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 500px;
+  height: 100vh;
   width: 100%;
-  text-align: center;
+  overflow: hidden;
 }
-
-.hero::before {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.hero video{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
   width: 100%;
   height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover;
 }
 
 /* CSS for the Tarian page */
@@ -197,16 +197,15 @@ body {
   margin-top: 80px;
 }
 
-.card-container {
+.card-container img {
   display: flex;
   width: 100%;
-  height: 500px;
-  background-image: url('../public/images/tarian/tari-gambyong-jawa-tengah.png');
+  /* background-image: url('../public/images/tarian/tari-gambyong-jawa-tengah.png'); */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  margin-top: 5px;
   justify-content: center;
   align-items: center;
 
@@ -222,15 +221,16 @@ body {
 }
 
 .card-content h3 {
-  margin: 0;
+  margin: 15px;
   color: #333;
+  text-align: left;
+  font-size: 20px;
 }
 
-.card-container-musik {
+.card-container-musik img{
   display: flex;
   width: 100%;
-  height: 500px;
-  background-image: url('../public/images/alat-musik/alat-musik-jawa-tengah.png');
+  /* background-image: url('../public/images/alat-musik/alat-musik-jawa-tengah.png'); */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -244,9 +244,15 @@ body {
 .maincontent {
   background-color: #fff;
   padding: 20px;
-  margin: 20px auto;
+  margin: auto;
   /* max-width: 1200px; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.maincontent_team{
+  background-color: #78ABA8;
+  padding: 20px;
+  margin: auto;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -258,7 +264,7 @@ body {
 }
 
 .maincontent p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.6;
   color: #666;
   text-align: justify;

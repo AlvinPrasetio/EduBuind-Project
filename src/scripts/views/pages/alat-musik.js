@@ -8,7 +8,8 @@ const AlatMusik = {
             <h2>Provinsi Jawa Tengah</h2>
           <div class="card-container-musik">
             <div class="card-content">
-                <h3>Gamelan</h3>
+              <h3>Gamelan</h3>
+              <img src="./images/alat-musik/alat-musik-jawa-tengah.png" alt="Gamelan">
             </div>
           </div>
         <div class="description-content">

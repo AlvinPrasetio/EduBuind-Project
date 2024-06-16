@@ -1,6 +1,6 @@
 @media screen and (max-width: 650px) {
     .header {
-      display: grid;
+      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -19,7 +19,7 @@
       padding: 0;
       width: 200px;
       position: absolute;
-      top: 165px;
+      top: 60px;
       left: 0;
       color: black;
       
@@ -30,7 +30,9 @@
     
     .header__menu{
       display: block;
-      left: 0;
+      position: absolute; /* Ensure the menu button stays in the right place */
+      left: 10px;
+      top: 10px; /* Adjust for positioning */
       background-color: darkgray;
     }
 
@@ -65,7 +67,6 @@
     }
   
     .hero {
-      min-width: 1000px;
+      min-width: 1200px;
     }
   }
-  
