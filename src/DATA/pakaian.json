@@ -1,0 +1,74 @@
+{
+    "pakaian": [
+        {
+            "id": "1",
+            "province": "Maluku",
+            "description": "Pakaian Baniang merupakan pakaian daerah Maluku yang sebenarnya pakaian tradisional suku Jawa yang tinggal disana. Seiring berjalannya waktu pakaian ini populer digunakan oleh lokal Maluku. Pakaian laki-laki biasanya menggunakan kemeja baniang putih yang membedakannya adalah di bagian kerahnya.Sedangkan perempuan, pakaiannya terdiri dari kebaya putih dengan corak tipis.",
+            "pictureId": "https://www.lamudi.co.id/journal/wp-content/uploads/2023/07/baju-koja.jpg",
+            "name": "Pakaian Baniang"
+        },
+        {
+            "id": "2",
+            "province": "Jawa Timur",
+            "description": "Tari Remo adalah salah satu tarian tradisional dari Jawa Timur, Indonesia. Tarian ini biasanya ditampilkan sebagai bagian dari pertunjukan Ludruk, sebuah bentuk teater rakyat Jawa Timur. Tari Remo dikenal karena gerakan yang enerjik dan dinamis, serta sering kali ditarikan oleh laki-laki, meskipun kini juga banyak ditarikan oleh perempuan.",
+            "pictureId": "https://asset.kompas.com/crops/KOblroSeD5UDhVb9IlvBs1-fF4A=/11x0:881x580/750x500/data/photo/2021/09/07/61375373e7531.jpg",
+            "name": "Tari Remo"
+        },
+        {
+            "id": "3",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 3",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 3"
+        },
+        {
+            "id": "4",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 4",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 4"
+        },
+        {
+            "id": "5",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 5",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 5"
+        },
+        {
+            "id": "6",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 6",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 6"
+        },
+        {
+            "id": "7",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 7",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 7"
+        },
+        {
+            "id": "8",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 8",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 8"
+        },
+        {
+            "id": "9",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 9",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 9"
+        },
+        {
+            "id": "10",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 10",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Pakaian 10"
+        }
+    ]
+}

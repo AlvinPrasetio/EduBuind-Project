@@ -1,0 +1,74 @@
+{
+    "adat": [
+        {
+            "id": "1",
+            "province": "Maluku",
+            "description": "Sampai sekarang, masyarakat Maluku masih melakukan penghormatan terhadap jasa-jasa yang telah dilakukan oleh Kapitan Pattimura, seorang Pahlawan Nasional Indonesia yang sudah tidak asing lagi bagi masyarakat Indonesia. Penghormatan kepada Kapitan Pattimura dilakukan dengan melaksanakan upacara yang dikenal sebagai Obor Pattimura. Obor Pattimura dilaksanakan setiap tanggal 15 Mei, yang juga sudah dikenal sebagai hari untuk memperingati jasa Pattimura. Obor sendiri merupakan simbol semangat yang membara dari perjuangan Pattimura melawan para penjajah pada saat itu.",
+            "pictureId": "https://ik.imagekit.io/tvlk/blog/2024/03/shutterstock_2226286507.jpg?tr=dpr-2,w-675",
+            "name": "Obor Pattimura"
+        },
+        {
+            "id": "2",
+            "province": "Jawa Timur",
+            "description": "Tari Remo adalah salah satu tarian tradisional dari Jawa Timur, Indonesia. Tarian ini biasanya ditampilkan sebagai bagian dari pertunjukan Ludruk, sebuah bentuk teater rakyat Jawa Timur. Tari Remo dikenal karena gerakan yang enerjik dan dinamis, serta sering kali ditarikan oleh laki-laki, meskipun kini juga banyak ditarikan oleh perempuan.",
+            "pictureId": "https://asset.kompas.com/crops/KOblroSeD5UDhVb9IlvBs1-fF4A=/11x0:881x580/750x500/data/photo/2021/09/07/61375373e7531.jpg",
+            "name": "Tari Remo"
+        },
+        {
+            "id": "3",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 3",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 3"
+        },
+        {
+            "id": "4",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 4",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 4"
+        },
+        {
+            "id": "5",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 5",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 5"
+        },
+        {
+            "id": "6",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 6",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 6"
+        },
+        {
+            "id": "7",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 7",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 7"
+        },
+        {
+            "id": "8",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 8",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 8"
+        },
+        {
+            "id": "9",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 9",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 9"
+        },
+        {
+            "id": "10",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 10",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Adat 10"
+        }
+    ]
+}
