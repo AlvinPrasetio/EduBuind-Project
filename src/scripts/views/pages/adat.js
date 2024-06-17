@@ -6,7 +6,7 @@ const Adat = {
     return `
     <div class="container">
       <div class="title">
-        <h1>Adat Istiadat di Indonesia berdasarkan Provinsi</h1>
+        <h1>Adat Istiadat dan Tradisi di Indonesia berdasarkan Provinsi</h1>
       </div>
       ${adatList.map((adat) => `
         <h2>Provinsi ${adat.province}</h2>
