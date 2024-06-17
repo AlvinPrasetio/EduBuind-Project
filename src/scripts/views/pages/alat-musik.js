@@ -1,22 +1,28 @@
-const AlatMusik = {
+import alatMusikData from '../../../DATA/musik.json';
+
+const alatMusik = {
   async render() {
+    const alatMusikList = alatMusikData.musik; // Ambil semua data tarian dari array
+
     return `
       <div class="container">
-          <div class="title">
-            <h1>Alat Musik di Indonesia berdasarkan Provinsi</h1>
-          </div>
-            <h2>Provinsi Jawa Tengah</h2>
-          <div class="card-container-musik">
-            <div class="card-content">
-              <h3>Gamelan</h3>
-              <img src="./images/alat-musik/alat-musik-jawa-tengah.png" alt="Gamelan">
-            </div>
-          </div>
-        <div class="description-content">
-            <p>Gamelan adalah musik ansambel tradisional Jawa dan Bali di Indonesia yang memiliki tangga nada pentatonis dalam sistem tangga nada slendro dan pelog. Terdiri dari instrumen musik perkusi yang digunakan pada seni musik karawitan.</p>
+        <div class="title">
+            <h1>Tarian di Indonesia berdasarkan Provinsi</h1>
         </div>
+        ${alatMusikList.map((musik) => `
+          <h2>Provinsi ${musik.province}</h2>
+          <div class="card-container">
+              <div class="card-content">
+                <h3>${musik.name}</h3>
+                  <img src="${musik.pictureId}" alt="${musik.name}">
+              </div>
+          </div>
+          <div class="description-content">
+              <p>${musik.description}</p>
+          </div>
+        `).join('')}
       </div>
-       `;
+    `;
   },
 
   async afterRender() {
@@ -24,4 +30,4 @@ const AlatMusik = {
   },
 };
 
-export default AlatMusik;
+export default alatMusik;

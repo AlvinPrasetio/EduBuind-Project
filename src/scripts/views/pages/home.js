@@ -34,7 +34,7 @@ const HomePage = {
                 <p>Membangun halaman yang menarik dan interaktif.</p>
             </div>
             <div class="team-member">
-                <img src="" alt="Dicky Andrean">
+                <img src="./images/tim/Dicky_Andrean.png" alt="Dicky Andrean">
                 <h3>Dicky Andrean</h3>
                 <p class="role">Front-End Developer</p>
                 <p>Membangun halaman yang menarik dan interaktif.</p>
