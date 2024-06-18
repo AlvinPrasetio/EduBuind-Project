@@ -14,13 +14,15 @@ const Bahasa = {
           <h2 tabindex="0">Provinsi ${bahasa.province}</h2>
             <div class="card-content">
               <h3 tabindex="0">${bahasa.name}</h3>
-                <img src="${bahasa.pictureId}" alt="${bahasa.name}">
-                <p tabindex="0">${bahasa.description}</p>
+              <ul>
+                ${bahasa.example.map((word) => `<li>${word}</li>`).join('')}
+              </ul>
+              <p tabindex="0">${bahasa.description || ''}</p>
             </div>
         </div>
       `).join('')}
     </div>
-          `;
+    `;
   },
 
   async afterRender() {
