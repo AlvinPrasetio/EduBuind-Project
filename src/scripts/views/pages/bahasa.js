@@ -15,7 +15,7 @@ const Bahasa = {
             <div class="card-content">
               <h3 tabindex="0">${bahasa.name}</h3>
               <ul>
-                ${bahasa.example.map((word) => `<li>${word}</li>`).join('')}
+                ${bahasa.example.map((word) => `<li tabindex="0">${word}</li>`).join('')}
               </ul>
               <p tabindex="0">${bahasa.description || ''}</p>
             </div>
