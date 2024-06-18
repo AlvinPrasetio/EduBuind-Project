@@ -22,7 +22,7 @@ const HomePage = {
         <h2>Perkenalkan Tim Capstone EduBuind</h2>
         <div class="team-container">
             <div class="team-member">
-                <img src="" alt="Muhammad Dzikri Mufarrij">
+                <img src="./images/tim/Muhammad_Dzikri_M.jpg" alt="Muhammad Dzikri Mufarrij">
                 <h3>Muhammad Dzikri Mufarrij</h3>
                 <p class="role">Front-End Developer</p>
                 <p>Membangun halaman yang menarik dan interaktif.</p>
