@@ -1,0 +1,74 @@
+{
+    "bahasa": [
+        {
+            "id": "1",
+            "province": "Jawa Tengah",
+            "description": "Tari Gambyong adalah salah satu tarian tradisional Indonesia yang berasal dari daerah Jawa Tengah, khususnya Surakarta. Tarian ini awalnya merupakan bagian dari upacara ritual untuk menyambut musim panen, namun seiring waktu, Tari Gambyong berkembang menjadi sebuah seni pertunjukan yang lebih luas dan sering ditampilkan dalam berbagai acara seperti upacara adat, pernikahan, hingga acara kenegaraan.",
+            "pictureId": "https://kompaspedia.kompas.id/wp-content/uploads/2022/07/Tari-Tradisional-15_20180429DRA32.jpg",
+            "name": "Tari Gambyong"
+        },
+        {
+            "id": "2",
+            "province": "Jawa Timur",
+            "description": "Tari Remo adalah salah satu tarian tradisional dari Jawa Timur, Indonesia. Tarian ini biasanya ditampilkan sebagai bagian dari pertunjukan Ludruk, sebuah bentuk teater rakyat Jawa Timur. Tari Remo dikenal karena gerakan yang enerjik dan dinamis, serta sering kali ditarikan oleh laki-laki, meskipun kini juga banyak ditarikan oleh perempuan.",
+            "pictureId": "https://asset.kompas.com/crops/KOblroSeD5UDhVb9IlvBs1-fF4A=/11x0:881x580/750x500/data/photo/2021/09/07/61375373e7531.jpg",
+            "name": "Tari Remo"
+        },
+        {
+            "id": "3",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 3",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 3"
+        },
+        {
+            "id": "4",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 4",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 4"
+        },
+        {
+            "id": "5",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 5",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 5"
+        },
+        {
+            "id": "6",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 6",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 6"
+        },
+        {
+            "id": "7",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 7",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 7"
+        },
+        {
+            "id": "8",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 8",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 8"
+        },
+        {
+            "id": "9",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 9",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 9"
+        },
+        {
+            "id": "10",
+            "province": "Jawa Tengah",
+            "description": "Deskripsi Tari 10",
+            "pictureId": "https://drive.google.com/file/d/1-rkLCG5rbtgHBEg_eQC0OobV3wPDHN3F/view?usp=sharing",
+            "name": "Tari 10"
+        }
+    ]
+}

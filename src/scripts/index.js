@@ -17,8 +17,6 @@ window.addEventListener('load', () => {
   app.renderPage();
 });
 
-// index.js
-
 document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.header');
 

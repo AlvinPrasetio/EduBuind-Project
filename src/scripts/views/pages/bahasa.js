@@ -1,10 +1,24 @@
+import bahasaData from '../../../DATA/bahasa.json';
+
 const Bahasa = {
   async render() {
+    const bahasaList = bahasaData.bahasa;
+
     return `
+    <div tabindex="0" class="title">
+      <h1>Bahasa di Indonesia berdasarkan Provinsi</h1>
+    </div>
     <div class="container">
-      <div class="title">
-        <h1>Bahasa di Indonesia berdasarkan Provinsi</h1>
-      </div>
+      ${bahasaList.map((bahasa) => `
+        <div class="card-container">
+          <h2 tabindex="0">Provinsi ${bahasa.province}</h2>
+            <div class="card-content">
+              <h3 tabindex="0">${bahasa.name}</h3>
+                <img src="${bahasa.pictureId}" alt="${bahasa.name}">
+                <p tabindex="0">${bahasa.description}</p>
+            </div>
+        </div>
+      `).join('')}
     </div>
           `;
   },

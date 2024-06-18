@@ -2,23 +2,21 @@ import alatMusikData from '../../../DATA/musik.json';
 
 const alatMusik = {
   async render() {
-    const alatMusikList = alatMusikData.musik; // Ambil semua data tarian dari array
+    const alatMusikList = alatMusikData.musik;
 
     return `
-      <div class="container">
-        <div class="title">
+      <div tabindex="0" class="title">
             <h1>Tarian di Indonesia berdasarkan Provinsi</h1>
         </div>
+      <div class="container">
         ${alatMusikList.map((musik) => `
-          <h2>Provinsi ${musik.province}</h2>
           <div class="card-container">
+            <h2 tabindex="0">Provinsi ${musik.province}</h2>
               <div class="card-content">
-                <h3>${musik.name}</h3>
+                <h3 tabindex="0">${musik.name}</h3>
                   <img src="${musik.pictureId}" alt="${musik.name}">
+                  <p tabindex="0">${musik.description}</p>
               </div>
-          </div>
-          <div class="description-content">
-              <p>${musik.description}</p>
           </div>
         `).join('')}
       </div>

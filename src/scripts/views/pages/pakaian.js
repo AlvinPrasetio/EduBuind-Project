@@ -4,20 +4,18 @@ const Pakaian = {
   async render() {
     const pakaianList = pakaianData.pakaian;
     return `
+    <div tabindex="0" class="title">
+      <h1>Pakaian Adat di Indonesia berdasarkan Provinsi</h1>
+    </div>
     <div class="container">
-      <div class="title">
-        <h1>Pakaian Adat di Indonesia berdasarkan Provinsi</h1>
-      </div>
       ${pakaianList.map((pakaian) => `
-        <h2>Provinsi ${pakaian.province}</h2>
         <div class="card-container">
+          <h2 tabindex="0">Provinsi ${pakaian.province}</h2>
             <div class="card-content">
-              <h3>${pakaian.name}</h3>
+              <h3 tabindex="0">${pakaian.name}</h3>
                 <img src="${pakaian.pictureId}" alt="${pakaian.name}">
+                <p tabindex="0">${pakaian.description}</p>
             </div>
-        </div>
-        <div class="description-content">
-            <p>${pakaian.description}</p>
         </div>
       `).join('')}
     </div>
