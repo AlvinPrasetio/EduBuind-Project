@@ -6,7 +6,7 @@ const alatMusik = {
 
     return `
       <div tabindex="0" class="title">
-            <h1>Alat Musik di Indonesia berdasarkan Provinsi</h1>
+          <h1>Alat Musik di Indonesia berdasarkan Provinsi</h1>
         </div>
       <div class="container">
         ${alatMusikList.map((musik) => `
